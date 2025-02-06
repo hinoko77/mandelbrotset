@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-![Demo GIF](https://github.com/hinokonoko77/mandelbrotset/blob/main/scrnshots/mandell.gif?raw=true)
+![Demo GIF](https://github.com/hinokonoko77/mandelbrotset/blob/master/scrnshots/mandell.gif)
 
 This is an **OpenGL-based Mandelbrot Set Viewer** written in **C** using the **GLUT (OpenGL Utility Toolkit)**. The program allows users to visualize and interact with the Mandelbrot set, including zooming in and out. It features a guide page explaining controls before rendering the fractal.
 
@@ -138,14 +138,22 @@ Each pixel is checked for whether it **escapes** a threshold after a maximum num
 
 ## **Screenshots**
 
-🔹 
+🔹
+
 ![](scrnshots/zoom2.png)
+
 ![](scrnshots/zoom4.png)
+
 ![](scrnshots/zoom6.png)
+
 ![](scrnshots/zoom1.png)
+
 ![](scrnshots/zoom7.png)
+
 ![](scrnshots/zoom5.png)
+
 ![](scrnshots/zoom3.png)
+
 
 ---
 
