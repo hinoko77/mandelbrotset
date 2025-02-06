@@ -2,7 +2,7 @@
 #include <math.h>
 #include <stdio.h>
 #include <stdbool.h>
-#include <cstring>
+#include <string.h>
 
 // Constants
 #define MAXCOUNT 100
@@ -147,6 +147,7 @@ void fractal() {
 
     double zoomLevel = log2(xside / 3.0); // Calculate zoom level
 
+    // Pre-compute the fixed window size (maxx and maxy are constant)
     for (int y = 0; y < maxy; y++) {
         for (int x = 0; x < maxx; x++) {
             double cx = x * zoomFactorX + left;
@@ -181,7 +182,6 @@ void fractal() {
     }
 
     glEnd();
-    glFlush();
 
     // Print the current complex number
     char complexText[50];
@@ -191,6 +191,7 @@ void fractal() {
     for (int j = 0; j < strlen(complexText); j++) {
         glutBitmapCharacter(GLUT_BITMAP_HELVETICA_12, complexText[j]);
     }
+
     glutSwapBuffers();
 }
 
