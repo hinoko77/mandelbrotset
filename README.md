@@ -136,9 +136,10 @@ Each pixel is checked for whether it **escapes** a threshold after a maximum num
 
 ## **Screenshots**
 
-🔹 *Add example screenshots of the fractal output here.*
+🔹 
+![](scrnshots/zoom1)
+![](scrnshots/zoom2)
 
----
 
 ## **Potential Improvements**
 
