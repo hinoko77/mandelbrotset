@@ -137,8 +137,10 @@ Each pixel is checked for whether it **escapes** a threshold after a maximum num
 ## **Screenshots**
 
 🔹 
-![](scrnshots/zoom1)
-![](scrnshots/zoom2)
+![](scrnshots/zoom1.png)
+
+![](scrnshots/zoom2.png)
+
 ---
 
 ## **Potential Improvements**
