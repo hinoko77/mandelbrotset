@@ -1,7 +1,8 @@
 # **Mandelbrot Fractal Viewer**
 
 ## **Overview**
-![Demo GIF](scrnshots/mandell.gif)
+
+![Demo GIF](https://github.com/hinokonoko77/mandelbrotset/blob/main/scrnshots/mandell.gif?raw=true)
 
 This is an **OpenGL-based Mandelbrot Set Viewer** written in **C** using the **GLUT (OpenGL Utility Toolkit)**. The program allows users to visualize and interact with the Mandelbrot set, including zooming in and out. It features a guide page explaining controls before rendering the fractal.
 
