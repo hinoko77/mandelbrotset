@@ -215,6 +215,8 @@ void updateZoom(int value) {
 
 // Function to handle mouse events
 void handleMouse(int button, int state, int x, int y) {
+    if (guidePage == 0) return; // Ignore mouse input when on the guide page
+
     if (state != GLUT_DOWN) return; // Ignore mouse up events
 
     double mouseX = (double)x / glutGet(GLUT_WINDOW_WIDTH);
@@ -237,6 +239,7 @@ void handleMouse(int button, int state, int x, int y) {
     glutTimerFunc(16, updateZoom, 0); // 60 FPS
 }
 
+
 // Function to handle keyboard events
 void keyboard(unsigned char key, int x, int y) {
     if (key == 13 && guidePage == 0) { // ASCII code for 'Enter'
@@ -244,4 +247,7 @@ void keyboard(unsigned char key, int x, int y) {
         glutPostRedisplay();
     }
 }
+
+
+
 
